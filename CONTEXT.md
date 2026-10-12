@@ -32,6 +32,6 @@ and host `home.nix`, like the NixOS repo), so `config` only has to be non-null.
 
 ## Build cost
 
-`jj-starship` (from the starship module) is a Rust crate from a flake, not
-nixpkgs, so cache.nixos.org doesn't have it and the first switch compiles it
-on the phone.
+`jj-starship` (from the starship module) and `hunk` are built from flakes, not
+nixpkgs, so cache.nixos.org doesn't have them and the first switch compiles
+both on the phone: a Rust crate and a bun2nix build.

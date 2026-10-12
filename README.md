@@ -42,16 +42,16 @@ just switch
 ```
 
 > [!IMPORTANT]
-> The first switch compiles `jj-starship` on the phone. It comes from a flake,
-> not nixpkgs, so no binary cache has it. Plug the phone in.
+> The first switch compiles `jj-starship` and `hunk` on the phone. Both come
+> from flakes, not nixpkgs, so no binary cache has them. Plug the phone in.
 
 ## What you get
 
 | | |
 | --- | --- |
 | **Login shell** | zsh, with nushell a `tmux` pane away |
-| **Shell setup** | Everything in [viicslen-nix/home](https://github.com/viicslen-nix/home): prompt, history, aliases, fzf/zoxide/direnv, git and jj identity |
-| **CLI** | neovim, vim, nano, gh, openssh, lsd, bat, ripgrep, fd, jq, jc, just, tlrc, … |
+| **Shell setup** | Everything in [viicslen-nix/home](https://github.com/viicslen-nix/home): prompt, history, aliases, fzf/zoxide/direnv, git and jj identity, gh as git's https credential helper, hunk for diffs |
+| **CLI** | neovim, vim, nano, openssh, lsd, bat, ripgrep, fd, jq, jc, just, tlrc, … |
 | **Nix** | flakes and `nix-command` on |
 
 What the phone turns off from the shared modules:

@@ -13,7 +13,7 @@ Rules for agents editing this repo. The reasoning is in `CONTEXT.md`.
   `parts/hosts.nix`, so don't import it. A preset is `default.nix` +
   `home.nix`. A new `parts/*.nix` file is imported automatically.
 - **No duplicate packages.** A package that a home-manager module already
-  installs (git, tmux, btop, fzf, zoxide, starship, the shells) is not listed in
+  installs (git, gh, hunk, tmux, btop, fzf, zoxide, starship, the shells) is not listed in
   `environment.packages` too.
 - **Verify by evaluating, not building.** From an x86_64 machine,
   `just eval` evaluates the aarch64 package profile and home-manager

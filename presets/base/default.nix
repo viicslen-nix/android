@@ -4,13 +4,12 @@
   ...
 }: {
   environment = {
-    # git, tmux, btop, fzf, zoxide, starship, man and the shells come from the
+    # git, gh, hunk, tmux, btop, fzf, zoxide, starship, man and the shells come from the
     # home-manager modules; don't list them here too.
     packages = with pkgs; [
       neovim
       vim
       nano
-      gh
       openssh
 
       lsd
