@@ -58,7 +58,6 @@
       "inputs": {
         "fzf-tab": "fzf-tab",
         "jj-starship": "jj-starship",
-        "laravel-sail": "laravel-sail",
         "nixpkgs": [
           "nixpkgs"
         ],
@@ -71,11 +70,11 @@
         "viicslen-lib": "viicslen-lib"
       },
       "locked": {
-        "lastModified": 1791809675,
-        "narHash": "sha256-Xv/3Cy8bcJNgYqr7Nx69+ajx/WsHZ0uTXFi1gjTYudA=",
+        "lastModified": 1791810839,
+        "narHash": "sha256-jHrpK/s7GFjn+GFRfH7qRIgztaEq9U+VzaZnDNzb0HU=",
         "owner": "viicslen-nix",
         "repo": "home",
-        "rev": "b4cbda5f5b78e0f9bdac7e450c512357e620aec2",
+        "rev": "95c1c9fb225b3f39eef52b47be81cb48ec498b2e",
         "type": "github"
       },
       "original": {
@@ -123,22 +122,6 @@
       "original": {
         "owner": "dmmulroy",
         "repo": "jj-starship",
-        "type": "github"
-      }
-    },
-    "laravel-sail": {
-      "flake": false,
-      "locked": {
-        "lastModified": 1765443723,
-        "narHash": "sha256-aNAVsQMLSVL4HuXgnJRm9ePMsLKLXQ30TtbaYfshJN0=",
-        "owner": "ariaieboy",
-        "repo": "laravel-sail",
-        "rev": "8fb7831a1f06e079a963c5c6f85058f7faab9cf8",
-        "type": "github"
-      },
-      "original": {
-        "owner": "ariaieboy",
-        "repo": "laravel-sail",
         "type": "github"
       }
     },
